@@ -217,7 +217,7 @@ autoclean = []
 
 START_mp4_URL = getenv(
     "START_mp4_URL",
-    "https://graph.org/vTelegraphBot-10-21-10",
+    "https://envs.sh/pYG.mp4",
 )
 
 PING_mp4_URL = getenv(
