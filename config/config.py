@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/vishalpandeynkp1/NOBITA-EXTRA-PLUGIN",
+    "https://github.com/Choco-criminal/NOBITA-EXTRA-PLUGIN",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -96,7 +96,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/vishalpandeynkp1/VIPNOBITAMUSIC_REPO",
+    "https://envs.sh/pi0.jpg",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -144,7 +144,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Choco-criminal/ChocoXmusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://envs.sh/pi0.jpg")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -217,17 +217,17 @@ autoclean = []
 
 START_mp4_URL = getenv(
     "START_mp4_URL",
-    "https://envs.sh/pFQ.mp4",
+    "https://graph.org/vTelegraphBot-10-21-10",
 )
 
 PING_mp4_URL = getenv(
     "PING_mp4_URL",
-    "https://graph.org/file/2d8c502dff878312d91f7-a20ec7693d56da7118.mp4",
+    "https://envs.sh/pYY.mp4",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://graph.org/file/9f55b32d58ff4d02efae7-73a3aee6a6c54c3061.jpg",
+    "https://envs.sh/pYg.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -239,7 +239,7 @@ STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
     "https://envs.sh/pFS.mp4",
 )
-
+    
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
     "https://graph.org/vTelegraphBot-10-19-18",
