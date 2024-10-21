@@ -64,7 +64,7 @@ class VIPBot(Client):
             try:
                 await self.send_video(
                     config.LOG_GROUP_ID,
-                    video=config.START_mp4_URL,
+                    video=config.START_IMG_URL,
                     caption=f"❖ 𝐅𝐮𝐛𝐮𝐤𝐢 𝐢𝐬 𝐡𝐞𝐫𝐞 𝐛𝐚𝐛𝐞𝐬 \n\n❖ 𝐁𝐨𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐁𝐚𝐛𝐲\n\n❖ {self.name}\n❖ `{self.id}` \n\n❖ @{self.username} \n\n  𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐦𝐞 𝐂𝐇𝐎𝐂𝐎 \n\n--------------------------༶",
                     reply_markup=button,
                 )
