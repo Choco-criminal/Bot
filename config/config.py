@@ -317,8 +317,8 @@ if GITHUB_REPO:
         )
 
 
-if PING_mp4_URL:
-    if PING_mp4_URL != "https://envs.sh/pYY.mp4":
+if PING_IMG_URL:
+    if PING_IMG_URL != "https://envs.sh/pYY.mp4":
         if not re.match("(?:http|https)://", PING_mp4_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
