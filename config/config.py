@@ -215,13 +215,13 @@ autoclean = []
 
 # Images
 
-START_mp4_URL = getenv(
-    "START_mp4_URL",
+START_IMG_URL = getenv(
+    "START_IMG_URL",
     "https://envs.sh/pYG.mp4",
 )
 
-PING_mp4_URL = getenv(
-    "PING_mp4_URL",
+PING_IMG_URL = getenv(
+    "PING_IMG_URL",
     "https://envs.sh/pYY.mp4",
 )
 
