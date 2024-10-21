@@ -227,12 +227,12 @@ PING_mp4_URL = getenv(
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/pYg.jpg",
+    "https://envs.sh/pC3.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://envs.sh/peg.jpg",
+    "https://envs.sh/pFS.mp4",
 )
 
 STATS_IMG_URL = getenv(
@@ -242,7 +242,7 @@ STATS_IMG_URL = getenv(
     
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://graph.org/vTelegraphBot-10-19-18",
+    "https://graph.org/vTelegraphBot-10-21-11",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
@@ -272,12 +272,12 @@ SPOTIFY_ARTIST_IMG_URL = getenv(
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://graph.org/vTelegraphBot-10-19-20",
+    "https://envs.sh/pC4.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://graph.org/vTelegraphBot-10-19-20",
+    "https://envs.sh/pCl.jpg",
 )
 
 
@@ -318,7 +318,7 @@ if GITHUB_REPO:
 
 
 if PING_mp4_URL:
-    if PING_mp4_URL != "https://graph.org/file/2d8c502dff878312d91f7-a20ec7693d56da7118.mp4":
+    if PING_mp4_URL != "https://envs.sh/pYY.mp4":
         if not re.match("(?:http|https)://", PING_mp4_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -334,7 +334,7 @@ if PLAYLIST_IMG_URL:
 
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "https://envs.sh/0-U.jpg":
+    if GLOBAL_IMG_URL != "https://envs.sh/pFS.mp4":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -342,7 +342,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://envs.sh/0-U.jpg":
+    if STATS_IMG_URL != "https://envs.sh/pC0.mp4":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -350,7 +350,7 @@ if STATS_IMG_URL:
 
 
 if TELEGRAM_AUDIO_URL:
-    if TELEGRAM_AUDIO_URL != "https://envs.sh/0-U.jpg":
+    if TELEGRAM_AUDIO_URL != "https://graph.org/vTelegraphBot-10-21-11":
         if not re.match("(?:http|https)://", TELEGRAM_AUDIO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_AUDIO_URL url is wrong. Please ensure that it starts with https://"
@@ -358,7 +358,7 @@ if TELEGRAM_AUDIO_URL:
 
 
 if STREAM_IMG_URL:
-    if STREAM_IMG_URL != "https://envs.sh/0-U.jpg":
+    if STREAM_IMG_URL != "https://graph.org/file/71e0135e5e048aabb33b2-53a3c917628ee25346.jpg":
         if not re.match("(?:http|https)://", STREAM_IMG_URL):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -366,7 +366,7 @@ if STREAM_IMG_URL:
 
 
 if SOUNCLOUD_IMG_URL:
-    if SOUNCLOUD_IMG_URL != "https://envs.sh/0-U.jpg":
+    if SOUNCLOUD_IMG_URL != "https://graph.org/file/0ad0744744eb72696f7be-3f096131603c528e0f.jpg":
         if not re.match("(?:http|https)://", SOUNCLOUD_IMG_URL):
             print(
                 "[ERROR] - Your SOUNCLOUD_IMG_URL url is wrong. Please ensure that it starts with https://"
