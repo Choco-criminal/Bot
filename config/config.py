@@ -237,7 +237,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://envs.sh/pFS.mp4",
+    "https://envs.sh/pC0.mp4",
 )
     
 TELEGRAM_AUDIO_URL = getenv(
